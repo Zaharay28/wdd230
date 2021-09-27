@@ -16,11 +16,13 @@ h1{
 }
 
 main {
-	max-width: 767px;
-	margin:  auto;
+	max-width: 1200px;
+	margin:  center;
 	display: grid;
 	grid-template-columns: 1fr;
 	font-size: 0.8rem;
+    justify-content: center;
+
 }
 
 main section h2 {
@@ -29,10 +31,12 @@ main section h2 {
 }
 
 main {
-	margin: 0.5rem;
+	margin: 3.5rem;
 	border: 1px solid #bbb;
 	padding: 0 1rem;
 	background-color: #eee;
+    justify-content: auto;
+
 }
 
 main section:nth-child(2) {
@@ -45,9 +49,9 @@ main section:nth-child(2) {
 }
 
 /* Tablet Views ******************************/
-@media only screen and (min-width: 37.5em) {
+@media only screen and (min-width: 39.5em) {
 	main {
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 1fr 1fr ;
 	}
 
 	main section:nth-child(2) {
@@ -64,7 +68,7 @@ main section:nth-child(2) {
 	main section picture img {
 		width: 100%;
 		height: auto;
-		border: 1px solid #bbb;
+		border: 2px solid #bbb;
 	}
 }
 
@@ -84,4 +88,4 @@ footer{
     justify-content: center;
     background-color:rgb(219, 145, 226);
     padding: 1.5rem;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;}
